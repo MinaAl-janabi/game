@@ -23,9 +23,7 @@ const soluPuzzle = [
   ];
 
 const sudokuGrid = document.getElementById('my-game');
-
-
-function Puzzle() {
+function myGame() {
   sudokuGrid.innerHTML = '';
 
   for (let i = 0; i < 9; i++) {
@@ -88,4 +86,4 @@ checkButton.addEventListener('click', () => {
 });
 
 }
-Puzzle();
+myGame();
